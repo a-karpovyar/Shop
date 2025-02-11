@@ -48,6 +48,24 @@ padding: 1.5rem 0;
     }
 }
 
-.cart-quantity{
-
+/* .cart-quantity{
+} */
+.basket-list{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  width: 50rem;
+  max-width: 95%;
+}
+.basket-close{
+  cursor: pointer;
+  position:absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  color: white;
+}
+.basket-delete{
+  cursor: pointer;
 }
