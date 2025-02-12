@@ -58,6 +58,7 @@ padding: 1.5rem 0;
   background-color: white;
   width: 50rem;
   max-width: 95%;
+  animation: show 500ms ease-in-out;
 }
 .basket-close{
   cursor: pointer;
@@ -68,4 +69,35 @@ padding: 1.5rem 0;
 }
 .basket-delete{
   cursor: pointer;
+}
+@keyframes show {
+    from {
+        top:70%;
+        opacity: 0;
+    }
+    to {
+        top:50%;
+        opacity: 1;
+    }
+}
+#toast-container {
+    top: 3rem !important;
+    animation: fade-in 250ms ease-in-out;
+  }
+
+.basket-adddelete{
+    cursor: pointer;
+    vertical-align: middle;
+    color: #26a69a;
+}
+
+@keyframes fade-in {
+    from {
+        transform:translateY(5rem);
+        opacity: 0;
+    }
+    to {
+        transform:translateY(0rem);
+        opacity: 1;
+    }
 }
