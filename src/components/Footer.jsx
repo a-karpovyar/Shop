@@ -3,7 +3,7 @@ function Footer() {
         <div className="footer-copyright">
             <div className="container">
                 © {new Date().getFullYear()} Copyright Text
-                <a className="grey-text text-lighten-4 right" href="#!">Github repo</a>
+                <a className="grey-text text-lighten-4 right" href="https://github.com/a-karpovyar/Shop" target='_blank' rel="noreferrer">Github repo</a>
             </div>
         </div>
     </footer>
